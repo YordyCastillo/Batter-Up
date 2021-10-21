@@ -25,3 +25,4 @@ class RecipeScraperItem(scrapy.Item):
     Recipe_Name = scrapy.Field(input_processor=MapCompose(remove_tags), output_processor=TakeFirst())
     Ingredients= scrapy.Field(input_processor=MapCompose(remove_tags,remove_SpecialChars),output_processor =remove_weirdchar)
     alt_ingredients=scrapy.Field(input_proccessor=MapCompose(remove_tags), output_processor= remove_weirdchar)
+

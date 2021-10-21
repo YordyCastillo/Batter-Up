@@ -23,7 +23,9 @@ class RecipeSpider(scrapy.Spider):
             l.add_css('Recipe_Name', 'h1.heading__title')
             l.add_css('Ingredients','li.simple-list__item.js-checkbox-trigger.ingredient.text-passage')
             l.add_css('alt_ingredients','.structured-ingredients__list-item p')
-            if (len(['Ingredients']) or len(['alt_ingredients']))>1 :
+            if (['Ingredients'] or ['alt_ingredients'])!=None:
                 yield l.load_item()
+
+
 
 
