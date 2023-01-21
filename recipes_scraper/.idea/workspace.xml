@@ -1,13 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90772a1b-9e6e-4fd7-aeba-337ea8dc664e" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../import_to_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/../import_to_db.py" afterDir="false" />
+    <list default="true" id="90772a1b-9e6e-4fd7-aeba-337ea8dc664e" name="Default Changelist" comment="updates as of Jan. 20 2023">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/pipelines.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/settings.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spiders/recipe_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/spiders/recipe_spider.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -177,9 +172,29 @@
       <option name="presentableId" value="Default" />
       <updated>1633016225899</updated>
     </task>
+    <task id="LOCAL-00001" summary="updates as of Jan. 20 2023">
+      <created>1674267376661</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674267376662</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="updates as of Jan. 20 2023" />
+    <option name="LAST_COMMIT_MESSAGE" value="updates as of Jan. 20 2023" />
+  </component>
   <component name="WindowStateProjectService">
+    <state x="808" y="11" key="CommitChangelistDialog2" timestamp="1674267809716">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="808" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1674267809716" />
+    <state x="294" y="74" key="DiffContextDialog" timestamp="1674267326741">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="294" y="74" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1674267326741" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1673218216897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -204,13 +219,17 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="866" y="132" key="MultipleFileMergeDialog/0.0.1536.824@0.0.1536.824" timestamp="1674267279936" />
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1674267074950">
+    <state x="277" y="55" key="SettingsEditor" timestamp="1674268803674">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1674267074950" />
-    <state x="963" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1674267262559">
+    <state x="277" y="55" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1674268803674" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1674267741948">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="963" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1674267262559" />
+    <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1674267741948" />
+    <state x="963" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1674268809987">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="963" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1674268809987" />
   </component>
 </project>
