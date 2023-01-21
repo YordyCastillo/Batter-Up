@@ -5,9 +5,20 @@
 
 
 # useful for handling different item types with a single interface
+import pymongo
+from itemadapter import ItemAdapter
+from scrapy.exceptions import DropItem
+import json
+
+
 from itemadapter import ItemAdapter
 
+from scrapy.pipelines.images import ImagesPipeline
 
 class RecipesScraperPipeline:
     def process_item(self, item, spider):
         return item
+
+class customImagePipleline(ImagesPipeline):
+    def file_path(self, request, response=None, info=None, *, item=None):
+        return request.url.split('/')[-1]

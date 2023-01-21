@@ -12,6 +12,10 @@ BOT_NAME = 'recipes_scraper'
 SPIDER_MODULES = ['recipes_scraper.spiders']
 NEWSPIDER_MODULE = 'recipes_scraper.spiders'
 
+ITEM_PIPELINES = {'recipes_scraper.pipelines.customImagePipleline': 1}
+
+IMAGES_STORE = 'Local_Folder'
+
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'recipes_scraper (+http://www.yourdomain.com)'
@@ -62,9 +66,13 @@ ROBOTSTXT_OBEY = True
 
 # Configure item pipelines
 # See https://docs.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'recipes_scraper.pipelines.RecipesScraperPipeline': 300,
-#}
+
+"""ITEM_PIPELINES = {
+    'recipes_scraper.pipelines.RecipesScraperPipeline': 300,
+
+    }"""
+
+ITEM_PIPELINES = {'recipes_scraper.pipelines.,images.ItemPipline':1}
 
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://docs.scrapy.org/en/latest/topics/autothrottle.html

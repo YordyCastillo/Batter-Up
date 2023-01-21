@@ -3,6 +3,14 @@
   <component name="ChangeListManager">
     <list default="true" id="2d6770a0-d450-4b33-b43b-659de401d2ab" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Strip_JSON.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/import_to_db.py" beforeDir="false" afterPath="$PROJECT_DIR$/import_to_db.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes_1014.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes_scraper/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/recipes_scraper/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes_scraper/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes_scraper/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes_scraper/pipelines.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes_scraper/pipelines.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes_scraper/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes_scraper/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/recipes_scraper/spiders/recipe_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/recipes_scraper/spiders/recipe_spider.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -29,10 +37,16 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../recipe_scraper" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/recipes_scraper/helper.py" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
-  <component name="RunManager" selected="Python.strip_and_beautify_json">
-    <configuration name="items" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Yordy\recipes_scraper\recipes_scraper\spiders" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Python.Recipe_GUI (1)">
+    <configuration name="CLI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="recipes_scraper" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -44,7 +58,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recipes_scraper/items.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recipes_scraper/CLI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -53,7 +67,28 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="recipe_spider" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="Recipe_GUI (1)" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="recipes_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recipes_scraper" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recipes_scraper/Recipe_GUI.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Recipe_GUI" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="recipes_scraper" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -65,7 +100,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recipes_scraper/spiders/recipe_spider.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recipes_scraper/spiders/Recipe_GUI.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -74,7 +109,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="strip_and_beautify_json" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="name" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="recipes_scraper" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -82,11 +117,32 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recipes_scraper" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Yordy\recipes_scraper\strip_and_beautify_json.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recipes_scraper/name.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="recipeImg" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="recipes_scraper" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/recipes_scraper/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/recipes_scraper/spiders/recipeImg.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -97,9 +153,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.strip_and_beautify_json" />
-        <item itemvalue="Python.recipe_spider" />
-        <item itemvalue="Python.items" />
+        <item itemvalue="Python.Recipe_GUI (1)" />
+        <item itemvalue="Python.CLI" />
+        <item itemvalue="Python.name" />
+        <item itemvalue="Python.Recipe_GUI" />
+        <item itemvalue="Python.recipeImg" />
       </list>
     </recent_temporary>
   </component>
@@ -136,12 +194,24 @@
     <option name="localTasksCounter" value="2" />
     <servers />
   </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -152,53 +222,37 @@
     <option name="LAST_COMMIT_MESSAGE" value="&quot;strip and beautify json file&quot;" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1634579244478">
+    <state x="933" y="171" key="FileChooserDialogImpl" timestamp="1661125744421">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="499" y="160" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1536.824@0.0.1536.824" timestamp="1634579244478" />
-    <state x="424" y="8" key="CommitChangelistDialog2" timestamp="1634827937302">
+    <state x="933" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1661125744421" />
+    <state width="1515" height="218" key="GridCell.Tab.0.bottom" timestamp="1661125297530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="424" y="8" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1634827937302" />
-    <state x="933" y="171" key="FileChooserDialogImpl" timestamp="1634244849074">
+    <state width="1515" height="218" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1661125297530" />
+    <state width="1515" height="218" key="GridCell.Tab.0.center" timestamp="1661125297530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="933" y="171" key="FileChooserDialogImpl/0.0.1536.824@0.0.1536.824" timestamp="1634244849074" />
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom" timestamp="1634579292848">
+    <state width="1515" height="218" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1661125297530" />
+    <state width="1515" height="218" key="GridCell.Tab.0.left" timestamp="1661125297530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1634579292848" />
-    <state width="1515" height="210" key="GridCell.Tab.0.center" timestamp="1634579292848">
+    <state width="1515" height="218" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1661125297530" />
+    <state width="1515" height="218" key="GridCell.Tab.0.right" timestamp="1661125297530">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1634579292848" />
-    <state width="1515" height="210" key="GridCell.Tab.0.left" timestamp="1634579292848">
+    <state width="1515" height="218" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1661125297530" />
+    <state x="277" y="56" key="SettingsEditor" timestamp="1661125260555">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1634579292848" />
-    <state width="1515" height="210" key="GridCell.Tab.0.right" timestamp="1634579292848">
+    <state x="277" y="56" key="SettingsEditor/0.0.1536.824@0.0.1536.824" timestamp="1661125260555" />
+    <state x="849" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1661906765210">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1515" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1634579292848" />
-    <state width="745" height="261" key="GridCell.Tab.1.bottom" timestamp="1633133135745">
+    <state x="849" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1661906765210" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup" timestamp="1658621933081">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="745" height="261" key="GridCell.Tab.1.bottom/0.0.1536.824@0.0.1536.824" timestamp="1633133135745" />
-    <state width="745" height="261" key="GridCell.Tab.1.center" timestamp="1633133135745">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="261" key="GridCell.Tab.1.center/0.0.1536.824@0.0.1536.824" timestamp="1633133135745" />
-    <state width="745" height="261" key="GridCell.Tab.1.left" timestamp="1633133135745">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="261" key="GridCell.Tab.1.left/0.0.1536.824@0.0.1536.824" timestamp="1633133135745" />
-    <state width="745" height="261" key="GridCell.Tab.1.right" timestamp="1633133135745">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state width="745" height="261" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1633133135745" />
-    <state x="849" y="238" key="com.intellij.ide.util.TipDialog" timestamp="1634469178703">
-      <screen x="0" y="0" width="1536" height="824" />
-    </state>
-    <state x="849" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1634469178703" />
+    <state x="431" y="145" width="672" height="678" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1658621933081" />
   </component>
 </project>
