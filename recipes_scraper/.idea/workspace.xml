@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="90772a1b-9e6e-4fd7-aeba-337ea8dc664e" name="Default Changelist" comment="updates as of Jan. 20 2023">
+    <list default="true" id="90772a1b-9e6e-4fd7-aeba-337ea8dc664e" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -179,22 +179,57 @@
       <option name="project" value="LOCAL" />
       <updated>1674267376662</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="updates as of Jan. 20 2023">
+      <created>1674268821429</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674268821429</updated>
+    </task>
+    <task id="LOCAL-00003" summary="updates as of Jan. 20 2023">
+      <created>1674268931717</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674268931717</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="updates as of Jan. 20 2023" />
     <option name="LAST_COMMIT_MESSAGE" value="updates as of Jan. 20 2023" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="808" y="11" key="CommitChangelistDialog2" timestamp="1674267809716">
+    <state x="808" y="11" key="CommitChangelistDialog2" timestamp="1674268930798">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="808" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1674267809716" />
-    <state x="294" y="74" key="DiffContextDialog" timestamp="1674267326741">
+    <state x="808" y="11" key="CommitChangelistDialog2/0.0.1536.824@0.0.1536.824" timestamp="1674268930798" />
+    <state x="294" y="74" width="1228" height="687" key="DiffContextDialog" timestamp="1674269651198">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="294" y="74" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1674267326741" />
+    <state x="294" y="74" width="1228" height="687" key="DiffContextDialog/0.0.1536.824@0.0.1536.824" timestamp="1674269651198" />
     <state x="549" y="168" key="FileChooserDialogImpl" timestamp="1673218216897">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -227,9 +262,9 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state x="465" y="238" key="com.intellij.ide.util.TipDialog/0.0.1536.824@0.0.1536.824" timestamp="1674267741948" />
-    <state x="963" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1674268809987">
+    <state x="963" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1674269651173">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="963" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1674268809987" />
+    <state x="963" y="333" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1674269651173" />
   </component>
 </project>
